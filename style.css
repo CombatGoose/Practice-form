@@ -1,0 +1,41 @@
+body {
+    background: rgb(67, 67, 67);
+}
+p {
+    color: white;
+}
+.feedback {
+    color: rgb(55, 245, 55);
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.block {
+    margin-top: 50px;
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+}
+.name {
+    font-size: 30px;
+}
+.description {
+    text-align: left;
+    margin-top: 20px;
+}
+.writeF {
+    margin-top: 100px;
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea, input {
+    margin-top: 30px;
+}
+input {
+    width: 50%;
+    height: 50px;
+}
